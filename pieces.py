@@ -30,7 +30,7 @@ class Deck(object):
 
     def fillDeck(self):
         cards = []
-        suits = ['S', 'H'] #'D', 'C']
+        suits = ['S', 'H', 'D', 'C']
         for s in suits:
             for d in range(2, 15):
                 cards.append(Card(s, d))
