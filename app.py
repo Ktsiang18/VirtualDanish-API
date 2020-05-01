@@ -18,4 +18,7 @@ pusher_client = pusher.Pusher(
   ssl=True
 )
 
+if __name__ == '__main__':
+    app.run()
+
 import models, routes
